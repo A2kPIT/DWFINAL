@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+h1 {
+    color: white;
+    font-family: Verdana;
+    font-size: 30px;
+}
+
+h2 {
+    color: #b2bec3;
+    font-family: Verdana;
+    font-size: 20px;
+    text-align: center;
+}
+
+body {
+    text-align: center;
+}
+
+.encabezado {
+    width: 100%;
+
+}
+.marco {
+    background: black;
+    padding: 0px 100px;
+}
+
+.imagenes {
+    width: 80%;
+}
+
+nav {
+    color: #b2bec3;
+    background: #2d3436;
+    text-align: left;
+    margin: 30px auto;
+    padding: 5px 20px;
+}
+
+section {
+    float: left;
+    width: 70%;
+    color: #b2bec3;
+}
+.boot {
+    width: 100%;
+}
+article {
+    color: #b2bec3;
+    background: #2d3436;
+    padding: 40px;
+    margin-bottom: 25px;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    color: #b2bec3;
+    background: #2d3436;
+    padding: 15px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.boton{
+	background-color: #1a1e1f;
+	padding: 1px;
+	width: 150px;
+	color: white;
+	font-size: 22px;
+	font-weight: 150;
+	text-align: center;
+    font-family: fantasy;
+    border-radius: 5px;
+    border: 2px #b2bec3 solid;
+}
+
+a   {
+    text-decoration: none;
+    color: #b2bec3;
+}
+
+.parrafo {
+    color: #b2bec3;
+    font-size: 15px;
+}
+
+footer {
+    color: white;
+    font-size: 12px;
+    clear: both;
+    text-align: left;
+}
+
+
+
+
+/* Efectos de imagen*/
+
+
+
+h1 {
+	color: white;
+    text-align: center;
+}
+
+figure {
+	border: thin #c0c0c0 solid;
+	padding: 5px;
+	margin: auto;
+	max-width: 800px;
+	text-align: center;
+}
+figcaption {
+	background-color: #222;
+	color: #fff;
+	font: italic smaller sans-serif;
+	padding: 3px;
+	text-align: center;
+}
+
+img, img:hover {
+	transition: all 1s ease-in-out;
+}
+
+img.estadio01 {
+    content: url(https://www.gamesatlas.com/images/cod-modern-warfare/maps/Aniyah-Palace.jpg);
+    max-width: 400px;
+	max-height: 400px;
+}
+img.estadio02 {
+	content: url(https://www.gamesatlas.com/images/cod-modern-warfare/maps/Arklov-Peak.jpg);
+	max-width: 400px;
+	max-height: 400px;
+}
+img.estadio03 {
+	content: url(https://www.gamesatlas.com/images/cod-modern-warfare/maps/Azhir-Cave.jpg);
+	max-width: 400px;
+    max-height: 400px;
+}
+img.estadio04 {
+	content: url(https://www.gamesatlas.com/images/cod-modern-warfare/maps/Crash.jpg);
+	max-width: 400px;
+    max-height: 400px;
+}
+img.imagen01:hover {
+	filter: invert(1);
+}
+img.imagen02:hover {
+	filter: drop-shadow(10px 10px 10px yellow);
+}
+img.imagen03:hover {
+	filter: brightness(.5);
+}
+img.imagen04:hover {
+	filter: contrast(1.5);
+}
+
+
+
+/*nav*/
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2d3436;
+    position: sticky;
+       top: 0;
+  }
+  
+nav li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+nav li a {
+    display: block;
+    color: #000;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+  }
+          
+nav li a:hover {
+    background-color: #555;
+    color: white;
+  }
+  
+nav li.active a{
+    background-color: rgb(255, 153, 0);
+    color: white;
+  }
+  
